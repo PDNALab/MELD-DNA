@@ -1,4 +1,4 @@
-Sample files required to run a MELD run:
+Sample files required to run a MELD run (from 1A74 system):
 1. restraints.py
 Restraint functions are defined in this file.
 2. setupMELD.py
@@ -12,3 +12,5 @@ Sequence of DNA needed to generate base pairing restraints.
 7. dummy-contacts-left.dat
 8. ss.dat
 This file indicates the secondary structure of every residues in the system. In the same order of the input PDB. H: Helix, E: Strand, .: coil. It includes DNA residues all marked as coils.
+9. 1a74-BDNA.pdb
+This is the input PDB.
